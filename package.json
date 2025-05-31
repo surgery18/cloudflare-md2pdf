@@ -1,0 +1,16 @@
+{
+	"name": "cloudflare-md2pdf",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"start": "wrangler dev --remote"
+	},
+	"devDependencies": {
+		"wrangler": "^4.18.0"
+	},
+	"dependencies": {
+		"@cloudflare/playwright": "^0.0.10",
+		"marked": "^15.0.12"
+	}
+}
